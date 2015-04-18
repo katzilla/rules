@@ -46,7 +46,7 @@ class UserRoleRemove extends RulesActionBase {
 
   /**
    * Executes the action with passed in contexts
-   * @see ::execute
+   * @see Drupal\rules\Core\RulesActionBase::execute
    * @param \Drupal\user\UserInterface $account
    *   User entity on which roles should be removed.
    * @param \Drupal\user\RoleInterface[] $roles
